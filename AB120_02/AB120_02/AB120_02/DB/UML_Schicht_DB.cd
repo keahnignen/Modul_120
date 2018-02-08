@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AB120_01.DB.Hotel">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Hotel" Hidden="true" />
+      <Property Name="HotelBild" Hidden="true" />
+      <Property Name="Land1" Hidden="true" />
+      <Property Name="Reise_Hotel" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAYAAAAAAAAA4AQAAABAAgAgAAAIAFAAA=</HashCode>
+      <FileName>DB\Hotel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AB120_01.DB.Kunde">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Kunde" Hidden="true" />
+      <Property Name="Kunde_Reise" Hidden="true" />
+      <Property Name="Land" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACQAAAACAAUgBAAAAAgAQAAAAAAACgAgAQAQABBIA=</HashCode>
+      <FileName>DB\Kunde.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AB120_01.DB.Land">
+    <Position X="4" Y="3" Width="1.5" />
+    <Members>
+      <Property Name="Hotel" Hidden="true" />
+      <Property Name="Kunde" Hidden="true" />
+      <Method Name="Land" Hidden="true" />
+      <Property Name="Reise" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAEAAAAAAAAAAAAAARAAAAAAAAgACAAAAEAAAA=</HashCode>
+      <FileName>DB\Land.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AB120_01.DB.Reise">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Members>
+      <Property Name="Kunde_Reise" Hidden="true" />
+      <Property Name="Land1" Hidden="true" />
+      <Method Name="Reise" Hidden="true" />
+      <Property Name="Reise_Hotel" Hidden="true" />
+      <Property Name="ReiseID" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAEAAAEAAAAgAAQAAAAAEAAgABAIgAAAA=</HashCode>
+      <FileName>DB\Reise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AB120_01.DB.Reise_Hotel">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Property Name="Hotel1" Hidden="true" />
+      <Property Name="Reise1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Reise_Hotel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AB120_01.DB.Kunde_Reise">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Property Name="Kunde1" Hidden="true" />
+      <Property Name="Reise1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgACAAAAAAAAA=</HashCode>
+      <FileName>DB\Kunde_Reise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AB120_01.DB.HotelBild">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Property Name="Hotel" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgEAAAAAAAAAAEAAAgAAAgAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>DB\HotelBild.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

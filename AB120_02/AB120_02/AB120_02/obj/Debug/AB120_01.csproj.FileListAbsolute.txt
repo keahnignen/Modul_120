@@ -1,0 +1,23 @@
+C:\Users\root\Google Drive\Gibb\M120\Projects\AB120_01\AB120_01\bin\Debug\AB120_01.exe.config
+C:\Users\root\Google Drive\Gibb\M120\Projects\AB120_01\AB120_01\bin\Debug\AB120_01.exe
+C:\Users\root\Google Drive\Gibb\M120\Projects\AB120_01\AB120_01\bin\Debug\AB120_01.pdb
+C:\Users\root\Google Drive\Gibb\M120\Projects\AB120_01\AB120_01\bin\Debug\EntityFramework.dll
+C:\Users\root\Google Drive\Gibb\M120\Projects\AB120_01\AB120_01\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\root\Google Drive\Gibb\M120\Projects\AB120_01\AB120_01\bin\Debug\EntityFramework.xml
+C:\Users\root\Google Drive\Gibb\M120\Projects\AB120_01\AB120_01\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\root\Google Drive\Gibb\M120\Projects\AB120_01\AB120_01\obj\Debug\AB120_01.csprojResolveAssemblyReference.cache
+C:\Users\root\Google Drive\Gibb\M120\Projects\AB120_01\AB120_01\obj\Debug\AB120_01.exe
+C:\Users\root\Google Drive\Gibb\M120\Projects\AB120_01\AB120_01\obj\Debug\AB120_01.pdb
+C:\Users\root\Gibb\M120\Projects\AB120_01\AB120_01\bin\Debug\AB120_01.exe.config
+C:\Users\root\Gibb\M120\Projects\AB120_01\AB120_01\obj\Debug\AB120_01.exe
+C:\Users\root\Gibb\M120\Projects\AB120_01\AB120_01\obj\Debug\AB120_01.pdb
+C:\Users\root\Gibb\M120\Projects\AB120_01\AB120_01\bin\Debug\AB120_01.exe
+C:\Users\root\Gibb\M120\Projects\AB120_01\AB120_01\bin\Debug\AB120_01.pdb
+C:\Users\root\Gibb\M120\Projects\AB120_01\AB120_01\bin\Debug\EntityFramework.dll
+C:\Users\root\Gibb\M120\Projects\AB120_01\AB120_01\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\root\Gibb\M120\Projects\AB120_01\AB120_01\bin\Debug\EntityFramework.xml
+C:\Users\root\Gibb\M120\Projects\AB120_01\AB120_01\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\root\Gibb\M120\Projects\AB120_01\AB120_01\obj\Debug\AB120_01.csprojResolveAssemblyReference.cache
+C:\Users\root\Gibb\M120\Projects\AB120_02\AB120_01\bin\Debug\AB120_01.exe.config
+C:\Users\root\Gibb\M120\Projects\AB120_02\AB120_01\obj\Debug\AB120_01.exe
+C:\Users\root\Gibb\M120\Projects\AB120_02\AB120_01\obj\Debug\AB120_01.pdb

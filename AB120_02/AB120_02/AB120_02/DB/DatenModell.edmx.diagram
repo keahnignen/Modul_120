@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9e575e2082c04924a66c6cfe4c2f9639" Name="Diagram1">
+        <EntityTypeShape EntityType="M120Model.Hotel" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="M120Model.Kunde" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="M120Model.Kunde_Reise" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="M120Model.Land" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="M120Model.Reise" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="M120Model.Reise_Hotel" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <AssociationConnector Association="M120Model.FK_Hotel_Land" ManuallyRouted="false" />
+        <AssociationConnector Association="M120Model.FK_Reise_Hotel_Hotel" ManuallyRouted="false" />
+        <AssociationConnector Association="M120Model.FK_Kunde_Land" ManuallyRouted="false" />
+        <AssociationConnector Association="M120Model.FK_Kunde_Reise_Kunde" ManuallyRouted="false" />
+        <AssociationConnector Association="M120Model.FK_Kunde_Reise_Reise" ManuallyRouted="false" />
+        <AssociationConnector Association="M120Model.FK_Reise_Land" ManuallyRouted="false" />
+        <AssociationConnector Association="M120Model.FK_Reise_Hotel_Reise" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="M120Model.HotelBild" Width="1.5" PointX="5.25" PointY="2.125" />
+        <AssociationConnector Association="M120Model.FK_HotelBild_Hotel" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

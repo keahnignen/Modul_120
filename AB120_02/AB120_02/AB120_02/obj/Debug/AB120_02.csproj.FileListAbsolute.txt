@@ -1,0 +1,11 @@
+C:\Users\root\Desktop\M120\AB02\AB120_02\AB120_02\AB120_02\bin\Debug\AB120_02.exe.config
+C:\Users\root\Desktop\M120\AB02\AB120_02_2016\AB120_02\AB120_02\bin\Debug\AB120_02.exe.config
+C:\Users\root\Desktop\M120\AB02\AB120_02\AB120_02\AB120_02\bin\Debug\AB120_02.exe
+C:\Users\root\Desktop\M120\AB02\AB120_02\AB120_02\AB120_02\bin\Debug\AB120_02.pdb
+C:\Users\root\Desktop\M120\AB02\AB120_02\AB120_02\AB120_02\bin\Debug\EntityFramework.dll
+C:\Users\root\Desktop\M120\AB02\AB120_02\AB120_02\AB120_02\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\root\Desktop\M120\AB02\AB120_02\AB120_02\AB120_02\bin\Debug\EntityFramework.xml
+C:\Users\root\Desktop\M120\AB02\AB120_02\AB120_02\AB120_02\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\root\Desktop\M120\AB02\AB120_02\AB120_02\AB120_02\obj\Debug\AB120_02.csprojResolveAssemblyReference.cache
+C:\Users\root\Desktop\M120\AB02\AB120_02\AB120_02\AB120_02\obj\Debug\AB120_02.exe
+C:\Users\root\Desktop\M120\AB02\AB120_02\AB120_02\AB120_02\obj\Debug\AB120_02.pdb

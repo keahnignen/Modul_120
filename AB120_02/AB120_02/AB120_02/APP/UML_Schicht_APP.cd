@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="AB120_02.APP.Kunde">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAQAgAAIBAAgAAAAAAAAAAAAAABEA=</HashCode>
+      <FileName>APP\Kunde.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AB120_02.APP.Land">
+    <Position X="0.5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAQAgAAIBgAAAAAABAAAAAAAAABEA=</HashCode>
+      <FileName>APP\Land.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AB120_02.APP.Hotel">
+    <Position X="6" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAgABIDAAgAAAABAAAAAAAAABEA=</HashCode>
+      <FileName>APP\Hotel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AB120_02.APP.Reise">
+    <Position X="3.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAgABIAAAgAAAABAAAAAAAAABEA=</HashCode>
+      <FileName>APP\Reise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AB120_02.APP.Zuweisungen">
+    <Position X="3.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAQAAAAAAAAAAAQAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>APP\Zuweisungen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
