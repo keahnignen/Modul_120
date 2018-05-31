@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lb120_2_Bibliothek"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="502.941" Width="934.874">
     <Grid>
-        
+        <Button x:Name="btn" Content="Bücher" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="btn_Click"/>
+        <Button x:Name="btn_Copy" Content="Ausleihe" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="75" Click="btn_Copy_Click"/>
+        <ScrollViewer x:Name="placeholder" HorizontalAlignment="Left" Height="431" Margin="105,16,0,0" VerticalAlignment="Top" Width="781" RenderTransformOrigin="0.5,0.5">
+            <ScrollViewer.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.267"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ScrollViewer.RenderTransform>
+        </ScrollViewer>
+
     </Grid>
 </Window>

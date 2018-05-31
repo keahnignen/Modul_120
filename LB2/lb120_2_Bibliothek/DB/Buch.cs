@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace lb120_2_Bibliothek.DB
 {
-    class Buch
+    public class Buch
     {
         public Buch() { }
         [Key]

@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace lb120_2_Bibliothek.DB
 {
-    class Ausleihe
+    public class Ausleihe
     {
         public Ausleihe() { }
         public Int16 AusleiheId { get; set; }

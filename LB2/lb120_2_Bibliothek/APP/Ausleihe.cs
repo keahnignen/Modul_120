@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lb120_2_Bibliothek.APP
 {
-    static class Ausleihe
+    public static class Ausleihe
     {
         public static List<DB.Ausleihe> Lesen_Alle()
         {

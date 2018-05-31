@@ -24,8 +24,8 @@ namespace lb120_2_Bibliothek
         public MainWindow()
         {
             InitializeComponent();
-            Testdaten();
-            Check();
+            //Testdaten();
+            //Check();
         }
 
         #region Testdaten
@@ -50,5 +50,15 @@ namespace lb120_2_Bibliothek
             }
         }
         #endregion
+
+        private void btn_Click(object sender, RoutedEventArgs e)
+        {
+            placeholder.Content = new UC_Buch();
+        }
+
+        private void btn_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            placeholder.Content = new UC_Ausleihe();
+        }
     }
 }

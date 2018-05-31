@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace lb120_2_Bibliothek.DB
 {
-    class Kunde
+    public class Kunde
     {
         public Kunde()
         { }
