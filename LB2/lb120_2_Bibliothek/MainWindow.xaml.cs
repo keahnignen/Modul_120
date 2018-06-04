@@ -51,14 +51,14 @@ namespace lb120_2_Bibliothek
         }
         #endregion
 
-        private void btn_Click(object sender, RoutedEventArgs e)
+        private void btnBuch_Click(object sender, RoutedEventArgs e)
         {
-            placeholder.Content = new UC_Buch();
+            scrollViewer.Content = new UC_Buch(scrollViewer);
         }
 
-        private void btn_Copy_Click(object sender, RoutedEventArgs e)
+        private void btnAusleihe_Click(object sender, RoutedEventArgs e)
         {
-            placeholder.Content = new UC_Ausleihe();
+            scrollViewer.Content = new UC_Ausleihe(scrollViewer);
         }
     }
 }

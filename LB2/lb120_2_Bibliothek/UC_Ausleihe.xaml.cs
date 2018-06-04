@@ -21,8 +21,10 @@ namespace lb120_2_Bibliothek
     /// </summary>
     public partial class UC_Ausleihe : UserControl
     {
-        public UC_Ausleihe()
+        private ScrollViewer _scrollViewer;
+        public UC_Ausleihe(ScrollViewer scrollViewer)
         {
+            this._scrollViewer = scrollViewer;
             InitializeComponent();
         }
 
@@ -33,7 +35,20 @@ namespace lb120_2_Bibliothek
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
-            dataGrid.ItemsSource =  APP.Ausleihe.Lesen_Alle();
+            dataGrid.AutoGenerateColumns = false;
+            dataGrid.ItemsSource = APP.Ausleihe.Lesen_Alle();
+            dataGrid.IsReadOnly = true;
+        }
+
+        private void dataGrid_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            ChangeToDetailView();
+        }
+
+        private void ChangeToDetailView()
+        {
+            if (dataGrid.SelectedIndex == -1) return;
+            _scrollViewer.Content = new UC_DetailedView(_scrollViewer, (Ausleihe)dataGrid.SelectedItem);
         }
     }
 }

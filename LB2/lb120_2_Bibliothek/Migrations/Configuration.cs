@@ -17,6 +17,7 @@ namespace lb120_2_Bibliothek.Migrations
 
         protected override void Seed(lb120_2_Bibliothek.DB.Context context)
         {
+            /*
             IList<DB.Kunde> demoKunden = new List<DB.Kunde>();
             demoKunden.Add(new DB.Kunde { Name = "Albert", Ortschaft = "Althofen" });
             demoKunden.Add(new DB.Kunde { Name = "Bruno", Ortschaft = "Basel" });
@@ -28,6 +29,7 @@ namespace lb120_2_Bibliothek.Migrations
             demoBuecher.Add(new DB.Buch { Titel = "C# for genius" });
             context.Buecher.AddRange(demoBuecher);
             base.Seed(context);
+            */
         }
     }
 }

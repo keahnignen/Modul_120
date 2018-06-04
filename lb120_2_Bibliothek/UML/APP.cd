@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="lb120_2_Bibliothek.APP.Buch">
+    <Position X="0.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAEAAAAAgAAIAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>APP\Buch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lb120_2_Bibliothek.APP.Kunde">
+    <Position X="3.25" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAgAAIBAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>APP\Kunde.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lb120_2_Bibliothek.APP.Ausleihe">
+    <Position X="6" Y="0.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAgAAIAAAAAAAAAAAQAAAgAABAA=</HashCode>
+      <FileName>APP\Ausleihe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
