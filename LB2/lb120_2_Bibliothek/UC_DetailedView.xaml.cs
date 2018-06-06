@@ -45,7 +45,6 @@ namespace lb120_2_Bibliothek
             IsNew = true;
             SetBook();
             chkIsAvailable.IsEnabled = false;
-            dtpStart.IsEnabled = true;
             SetDateTime(DateTime.Now, DateTime.Now.Date.Add(new TimeSpan(14, 0, 0, 0)));
 
 
@@ -74,7 +73,6 @@ namespace lb120_2_Bibliothek
             lblTitle.Content = "Ausleihe bearbeiten";
             IsNew = false;
             SetBook();
-            dtpStart.IsEnabled = false;
             chkIsAvailable.IsChecked = _ausleihe.IstZurueck;
             SetDateTime(_ausleihe.Start, _ausleihe.Ende);
 
@@ -109,7 +107,7 @@ namespace lb120_2_Bibliothek
 
             if (x)
             {
-                MessageBox.Show("Start Datum ist älter als dass End Datum");
+                lblStatus.Content = "Start Datum ist älter als dass End Datum";
             }
 
             return x;
@@ -121,7 +119,7 @@ namespace lb120_2_Bibliothek
             var i = (cbxKunde.SelectedIndex != -1);
             if (!i)
             {
-                MessageBox.Show("Kein Benutzer gewält");
+                lblStatus.Content = "Kein Benutzer gewält";
             }
 
             return i;
@@ -139,25 +137,40 @@ namespace lb120_2_Bibliothek
         {
             _ausleihe.Start = (DateTime) dtpStart.SelectedDate;
             _ausleihe.Ende = (DateTime) dtpEnd.SelectedDate;
-            _ausleihe.IstZurueck = (bool) chkIsAvailable.IsChecked;
             _ausleihe.Buch = _buch;
             _ausleihe.Kunde = (Kunde)cbxKunde.SelectedItem;
 
             if (IsNew)
             {
+                _ausleihe.IstZurueck = false;
                 APP.Ausleihe.Erstellen(_ausleihe);
             }
             else
             {
-                APP.Ausleihe.Aktualisieren(_ausleihe);
+                _ausleihe.IstZurueck = (bool)chkIsAvailable.IsChecked;
+                if (_ausleihe.IstZurueck)
+                {
+                    APP.Ausleihe.Aktualisieren(_ausleihe);
+                }
+                else
+                {
+                    APP.Ausleihe.Aktualisieren(_ausleihe);
+                }
+
+
             }
 
-            _scrollViewer.Content = new UC_Ausleihe(_scrollViewer);
+            lblStatus.Content = "Gespeichert";
         }
 
         private void CalendarClosed(object sender, RoutedEventArgs e)
         {
             IsDateNotValid();
+        }
+
+        private void btnBack_Click(object sender, RoutedEventArgs e)
+        {
+            _scrollViewer.Content = new UC_Ausleihe(_scrollViewer);
         }
     }
 }

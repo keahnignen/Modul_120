@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="529.708" Width="934.874">
     <Grid Height="495" VerticalAlignment="Top">
-        <Button x:Name="btnBook" Content="Bücher" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="btnBuch_Click"/>
-        <Button x:Name="btnAusleihe" Content="Ausleihe" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="75" Click="btnAusleihe_Click"/>
-        <ScrollViewer x:Name="scrollViewer" HorizontalAlignment="Left" Height="478" Margin="105,16,0,0" VerticalAlignment="Top" Width="781" RenderTransformOrigin="0.5,0.5">
+        <Button x:Name="btnBook" Content="Bücher" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="112" Click="btnBuch_Click"/>
+        <Button x:Name="btnAusleihe" Content="Ausleihen" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="112" Click="btnAusleihe_Click"/>
+        <ScrollViewer x:Name="scrollViewer" HorizontalAlignment="Left" Height="478" Margin="144,16,0,0" VerticalAlignment="Top" Width="742" RenderTransformOrigin="0.5,0.5">
             <ScrollViewer.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -19,6 +19,8 @@
                 </TransformGroup>
             </ScrollViewer.RenderTransform>
         </ScrollViewer>
+        <Button x:Name="btnAusleihe_Copy" Content="Archiv
+" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="112" Click="btnArchive_Click"/>
 
     </Grid>
 </Window>

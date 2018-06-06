@@ -36,7 +36,7 @@ namespace lb120_2_Bibliothek
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
             dataGrid.AutoGenerateColumns = false;
-            dataGrid.ItemsSource = APP.Ausleihe.Lesen_Alle();
+            dataGrid.ItemsSource = APP.Ausleihe.Lesen_Alle().Where(a => !a.IstZurueck);
             dataGrid.IsReadOnly = true;
         }
 

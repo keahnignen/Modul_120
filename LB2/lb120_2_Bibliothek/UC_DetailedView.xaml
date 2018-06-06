@@ -10,7 +10,7 @@
         <Label x:Name="label1" Content="Verfügbar:" HorizontalAlignment="Left" Margin="29,93,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label2" Content="Start:" HorizontalAlignment="Left" Margin="29,119,0,0" VerticalAlignment="Top" Width="100"/>
         <Label x:Name="label2_Copy" Content="Ende:" HorizontalAlignment="Left" Margin="29,146,0,0" VerticalAlignment="Top" Width="100"/>
-        <DatePicker x:Name="dtpStart" HorizontalAlignment="Left" Margin="102,122,0,0" VerticalAlignment="Top" Width="141" CalendarClosed="CalendarClosed" />
+        <DatePicker x:Name="dtpStart" HorizontalAlignment="Left" Margin="102,122,0,0" VerticalAlignment="Top" Width="141" CalendarClosed="CalendarClosed" IsEnabled="False" />
         <DatePicker x:Name="dtpEnd" HorizontalAlignment="Left" Margin="102,150,0,0" VerticalAlignment="Top" Width="141" CalendarClosed="CalendarClosed"/>
         <CheckBox x:Name="chkIsAvailable" Content="Ist Verfügbar" HorizontalAlignment="Left" Margin="102,99,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnSave" Content="Speichern" HorizontalAlignment="Left" Margin="168,234,0,0" VerticalAlignment="Top" Width="75" Click="btnSave_Click"/>
@@ -18,6 +18,8 @@
         <Label x:Name="label2_Copy1" Content="Kunde:" HorizontalAlignment="Left" Margin="29,177,0,0" VerticalAlignment="Top" Width="100"/>
         <ComboBox x:Name="cbxBuch" HorizontalAlignment="Left" Margin="102,66,0,0" VerticalAlignment="Top" Width="141" IsEnabled="False"/>
         <Label x:Name="lblTitle" Content="Label" HorizontalAlignment="Left" Margin="29,10,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="lblStatus" Content="" HorizontalAlignment="Left" Margin="29,285,0,0" VerticalAlignment="Top" Width="268"/>
+        <Button x:Name="btnZurück" Content="Zurück" HorizontalAlignment="Left" Margin="29,234,0,0" VerticalAlignment="Top" Width="75" Click="btnBack_Click" />
 
     </Grid>
 </UserControl>

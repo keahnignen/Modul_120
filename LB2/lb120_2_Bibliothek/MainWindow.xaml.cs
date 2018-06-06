@@ -60,5 +60,10 @@ namespace lb120_2_Bibliothek
         {
             scrollViewer.Content = new UC_Ausleihe(scrollViewer);
         }
+
+        private void btnArchive_Click(object sender, RoutedEventArgs e)
+        {
+            scrollViewer.Content = new UC_Archive(scrollViewer);
+        }
     }
 }

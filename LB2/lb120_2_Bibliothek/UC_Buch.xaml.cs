@@ -33,6 +33,21 @@ namespace lb120_2_Bibliothek
 
         }
 
+        private Ausleihe getValidBuchs(long buchId)
+        {
+            var ausleihenWithThisBook = APP.Ausleihe.Lesen_BuchId(buchId);
+            foreach (var auslei in ausleihenWithThisBook)
+            {
+                if (!auslei.IstZurueck)
+                {
+                    return auslei;
+                }
+            }
+
+            return null;
+        }
+
+
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
             dataGrid.AutoGenerateColumns = false;
@@ -42,21 +57,19 @@ namespace lb120_2_Bibliothek
 
             foreach (var buch in APP.Buch.Lesen_Alle())
             {
-                var ausleihen =  APP.Ausleihe.Lesen_BuchId(buch.BuchId);
 
-                if (ausleihen.Count == 0)
+                Ausleihe ausleihe = getValidBuchs(buch.BuchId);
+                if (ausleihe == null)
                 {
-                    var ausliehe = new Ausleihe();
-                    ausliehe.Buch = buch;
-                    ausliehe.IstZurueck = true;
-                    list.Add(ausliehe);
+                    ausleihe = new Ausleihe();
+                    ausleihe.Buch = buch;
+                    ausleihe.IstZurueck = true;
                 }
                 else
                 {
-                    var ausleihe = ausleihen.First();
                     ausleihe.Buch = buch;
-                    list.Add(ausleihe);
                 }
+                list.Add(ausleihe);
             }
 
             dataGrid.ItemsSource = list;
